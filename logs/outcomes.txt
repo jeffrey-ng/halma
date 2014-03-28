@@ -1,0 +1,1 @@
+1	random	random	random	random	Player-1	random	100	game00001.log	
