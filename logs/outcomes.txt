@@ -1,1 +1,65 @@
 1	random	random	random	random	Player-1	random	100	game00001.log	
+2	random	random	random	random	Player-1	random	100	game00002.log	
+3	260452449	random	random	random	Player-1	random	100	game00003.log	
+4	260452449	random	random	random	Player-1	random	0	game00004.log	TIMEOUT Player-0
+5	random	random	random	random	Player-1	random	100	game00005.log	
+6	260452449	random	random	random	Player-1	random	0	game00006.log	TIMEOUT Player-0
+7	random	random	random	random	Player-1	random	100	game00007.log	
+9	260452449	random	random	random	Player-1	random	0	game00009.log	TIMEOUT Player-0
+10	260452449	random	random	random	UNDECIDED	NOBODY	0	game00010.log	USER CANCEL
+13	260452449	random	random	random	Player-1	random	100	game00013.log	
+14	260452449	random	random	random	Player-1	random	100	game00014.log	
+15	260452449	random	random	random	Player-1	random	100	game00015.log	
+17	260452449	random	random	random	Player-1	random	100	game00017.log	
+18	260452449	random	random	random	Player-1	random	100	game00018.log	
+19	260452449	random	random	random	Player-1	random	100	game00019.log	
+20	260452449	random	random	random	Player-1	random	100	game00020.log	
+21	260452449	random	random	random	Player-1	random	100	game00021.log	
+22	260452449	random	random	random	Player-1	random	100	game00022.log	
+23	260452449	random	random	random	Player-1	random	100	game00023.log	
+24	260452449	random	random	random	Player-1	random	100	game00024.log	
+25	260452449	random	random	random	Player-1	random	100	game00025.log	
+26	260452449	random	random	random	Player-1	random	100	game00026.log	
+27	260452449	random	random	random	Player-1	random	100	game00027.log	
+28	260452449	random	random	random	Player-1	random	100	game00028.log	
+29	260452449	random	random	random	Player-1	random	100	game00029.log	
+33	260452449	random	random	random	Player-1	random	100	game00033.log	
+35	260452449	random	random	random	Player-1	random	100	game00035.log	
+36	260452449	random	random	random	Player-1	random	100	game00036.log	
+37	260452449	random	random	random	Player-1	random	100	game00037.log	
+38	260452449	random	random	random	Player-1	random	100	game00038.log	
+41	260452449	random	random	random	Player-1	random	100	game00041.log	
+42	260452449	random	random	random	Player-1	random	100	game00042.log	
+43	260452449	random	random	random	Player-1	random	100	game00043.log	
+45	260452449	random	random	random	Player-1	random	100	game00045.log	
+46	random	random	random	random	Player-1	random	100	game00046.log	
+47	260452449	random	random	random	Player-1	random	100	game00047.log	
+48	260452449	random	random	random	Player-1	random	100	game00048.log	
+49	260452449	random	random	random	Player-1	random	100	game00049.log	
+50	260452449	random	random	random	Player-1	random	100	game00050.log	
+51	260452449	random	random	random	Player-1	random	100	game00051.log	
+52	260452449	random	random	random	Player-1	random	100	game00052.log	
+53	260452449	random	random	random	Player-1	random	100	game00053.log	
+55	260452449	random	random	random	Player-1	random	100	game00055.log	
+56	260452449	random	random	random	Player-1	random	100	game00056.log	
+60	260452449	random	random	random	Player-1	random	100	game00060.log	
+61	260452449	random	random	random	Player-1	random	100	game00061.log	
+62	260452449	random	random	random	Player-1	random	100	game00062.log	
+63	260452449	random	random	random	Player-1	random	100	game00063.log	
+64	260452449	random	random	random	Player-1	random	100	game00064.log	
+68	260452449	260452449	260452449	260452449	Player-1	260452449	100	game00068.log	
+69	260452449	random	random	random	Player-1	random	100	game00069.log	
+70	260452449	random	random	random	Player-1	random	100	game00070.log	
+71	260452449	random	random	random	Player-0	260452449	100	game00071.log	
+75	260452449	random	random	random	Player-0	260452449	100	game00075.log	
+77	260452449	random	random	random	Player-1	random	100	game00077.log	
+78	260452449	random	random	random	UNDECIDED	NOBODY	0	game00078.log	USER CANCEL
+80	260452449	random	random	random	Player-0	260452449	100	game00080.log	
+81	260452449	random	random	random	Player-1	random	100	game00081.log	
+82	260452449	random	random	random	Player-1	random	100	game00082.log	
+83	260452449	random	random	random	Player-1	random	100	game00083.log	
+84	260452449	random	random	random	Player-1	random	100	game00084.log	
+85	260452449	random	random	random	Player-1	random	100	game00085.log	
+86	260452449	random	random	random	Player-1	random	100	game00086.log	
+87	random	random	random	random	Player-1	random	100	game00087.log	
+88	260452449	random	random	random	Player-1	random	100	game00088.log	

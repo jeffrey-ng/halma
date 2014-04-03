@@ -41,7 +41,7 @@ import java.awt.EventQueue;
  * 
  * The entry points for these threads are synchronized on the Server
  * object's lock, except for the run() method. This is because the thread
- * would not release the lock while waiting for c								onnections. For this reason
+ * would not release the lock while waiting for connections. For this reason
  * it is unsafe to manipulate the Server object while the run() method may 
  * be executing, with the exception of the killServer() method. 
  *

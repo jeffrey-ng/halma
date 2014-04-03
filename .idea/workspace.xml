@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edaa40b5-94cc-4dd4-a6cb-bdb35ad49b9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halma.eml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halma.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/AlphaBeta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Heuristics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/IMoveAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Leaf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/minimaxPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_submission/src/s260452449/s260452449Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jar/projectsrc.jar" afterPath="$PROJECT_DIR$/jar/projectsrc.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/boardgame/Server.java" afterPath="$PROJECT_DIR$/src/boardgame/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/boardgame/ServerGUI.java" afterPath="$PROJECT_DIR$/src/boardgame/ServerGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/outcomes.txt" afterPath="$PROJECT_DIR$/logs/outcomes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_submission/src/sXXXXXXXXX/sXXXXXXXXXPlayer.java" afterPath="$PROJECT_DIR$/example_submission/src/sXXXXXXXXX/sXXXXXXXXXPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="halma.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,6 +28,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -59,6 +77,24 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java" line="62" class="s260452449.MyTools.GeneralTools" package="s260452449.MyTools">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -68,10 +104,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Pair.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+            <state line="16" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralTools.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="267" column="0" selection-start="8421" selection-end="8421" vertical-scroll-proportion="0.80477226" vertical-offset="3499" max-vertical-offset="3960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="8" selection-start="3934" selection-end="3934" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="2865">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="207" column="3" selection-start="8520" selection-end="8520" vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="10365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/Move.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="22" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="3" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1815">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HumanPlayer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/HumanPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="22" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/BoardPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="16" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s260452449Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/s260452449Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="21" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boardgame/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="1" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="794" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -87,11 +204,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/myTools/BoardRating.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/sXXXXXXXXX/sXXXXXXXXXPlayer.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/miniMaxTree.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/s260452449Player.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Node.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Pair.java" />
+        <option value="$PROJECT_DIR$/src/boardgame/ServerGUI.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Leaf.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Node.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/IMoveAlgorithm.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/minimaxPlayer.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Heuristics.java" />
+        <option value="$PROJECT_DIR$/example_submission/src/s260452449/MyTools/AlphaBeta.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1445" />
+    <option name="x" value="5" />
     <option name="y" value="27" />
-    <option name="width" value="1910" />
-    <option name="height" value="1048" />
+    <option name="width" value="1430" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -119,6 +256,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,10 +276,154 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boardgame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_submission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_submission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_submission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s260452449" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_submission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s260452449" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_submission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s260452449" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,12 +437,74 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Server">
+    <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boardgame.Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-p 8123 -t 3000000 -b halma.CCBoard" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="halma" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boardgame.Client" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="s260452449.minimaxPlayer localhost 8123" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="halma" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -244,13 +589,58 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="edaa40b5-94cc-4dd4-a6cb-bdb35ad49b9c" name="Default" comment="" />
@@ -260,32 +650,58 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1445" y="27" width="1910" height="1048" extended-state="0" />
-    <editor active="true" />
+    <frame x="5" y="27" width="1430" height="864" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32642487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18576017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22694525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33678755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901555" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19164266" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12823834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -303,10 +719,350 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="9" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/minimaxPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1035">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/IMoveAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Heuristics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="37" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="327" column="22" selection-start="8693" selection-end="8693" vertical-scroll-proportion="0.0" vertical-offset="4905" max-vertical-offset="5970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCBoardPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="3165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/AlphaBeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="9" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/minimaxPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/IMoveAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Heuristics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="37" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="327" column="22" selection-start="8693" selection-end="8693" vertical-scroll-proportion="0.0" vertical-offset="4905" max-vertical-offset="5970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCBoardPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="3165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/sXXXXXXXXX/mytools/MyTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/sXXXXXXXXX/sXXXXXXXXXPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCHumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCRandomPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="56" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/projectsrc.jar!/halma/CCBoard.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="443" selection-end="443" vertical-scroll-proportion="-3.235294" vertical-offset="0" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/projectsrc.jar!/halma/CCRandomPlayer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/projectsrc.jar!/halma/CCRandomPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/projectsrc.jar!/boardgame/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="33" selection-start="5111" selection-end="5116" vertical-scroll-proportion="-18.653847" vertical-offset="1195" max-vertical-offset="1815" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/projectsrc.jar!/boardgame/Board.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="324" selection-end="329" vertical-scroll-proportion="-2.3529413" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/projectsrc.jar!/halma/CCBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="5625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/ServerGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="484" column="5" selection-start="20307" selection-end="20307" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="9405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/BoardPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="16" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/HumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="460" selection-end="460" vertical-scroll-proportion="-2.1808035" vertical-offset="1232" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="8" selection-start="3934" selection-end="3934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="3" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="1" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="3" selection-start="8520" selection-end="8520" vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="10065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boardgame/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/s260452449Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/minimaxPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.5249458" vertical-offset="343" max-vertical-offset="1035">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="4" selection-start="3502" selection-end="3502" vertical-scroll-proportion="1.0091954" vertical-offset="1436" max-vertical-offset="5715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/halma/CCBoardPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.55314535" vertical-offset="300" max-vertical-offset="3000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.5835141" vertical-offset="31" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Tree/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="0.3253796" vertical-offset="0" max-vertical-offset="461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/IMoveAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.29284164" vertical-offset="0" max-vertical-offset="461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/Heuristics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="24" selection-start="2027" selection-end="2029" vertical-scroll-proportion="2.0173535" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/AlphaBeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="-0.51724136" vertical-offset="345" max-vertical-offset="3195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_submission/src/s260452449/MyTools/GeneralTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="0" selection-start="8421" selection-end="8421" vertical-scroll-proportion="0.80477226" vertical-offset="3499" max-vertical-offset="3960">
           <folding />
         </state>
       </provider>

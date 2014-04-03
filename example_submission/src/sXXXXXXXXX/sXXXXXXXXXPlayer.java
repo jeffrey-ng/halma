@@ -28,6 +28,12 @@ public class sXXXXXXXXXPlayer extends Player {
     /** Implement a very stupid way of picking moves */
     public Move chooseMove(Board theboard) 
     {
+        //Create tree of all possible moves for one turn.
+        //Get rating of those moves.
+        //Choose move that has best rating.
+
+
+
         // Cast the arguments to the objects we want to work with
         CCBoard board = (CCBoard) theboard;
 
