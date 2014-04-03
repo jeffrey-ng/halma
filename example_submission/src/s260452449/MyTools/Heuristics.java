@@ -63,7 +63,7 @@ public class Heuristics {
         //utility += tools.getDistanceFromBase(theBoard,0)* weights.get(0).get(WeightNames.distanceFromBase);;
         utility += tools.getDistanceFromBase(theBoard,0)* 1000;
         utility -= tools.getNumPiecesInBase(theBoard,0)* weights.get(0).get(WeightNames.piecesInBase);
-        //utility += tools.getNeighbourCount(theBoard,0) * weights.get(0).get(WeightNames.neighbours);
+        utility += tools.getNeighbourCount(theBoard,0) * weights.get(0).get(WeightNames.neighbours);
 
 
         return utility;

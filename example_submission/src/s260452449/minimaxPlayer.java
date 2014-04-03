@@ -49,7 +49,7 @@ public class minimaxPlayer extends Player{
         // Get the list of legal moves.
         ArrayList<CCMove> moves = board.getLegalMoves();
         try {
-            move = algorithm.getOptimalMove(theboard,2, board.getIDForName(myName));
+            move = algorithm.getOptimalMove(theboard,2);
         } catch (Exception e) {
             System.out.println("Problem making move decision.");
             move = moves.get(rand.nextInt(moves.size()));

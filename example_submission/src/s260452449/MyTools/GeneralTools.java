@@ -30,21 +30,6 @@ public class GeneralTools {
         return pairs;
     }
 
-    public ArrayList<Pair> getNextPossibleBoardsForPlayer(Board theBoard, int PlayerID) {
-
-        ArrayList<Pair> pairs = new ArrayList<Pair>();
-        CCBoard board = (CCBoard) theBoard;
-
-        for (Point p: board.getPieces(PlayerID)) {
-            for (CCMove move : board.getLegalMoveForPiece(p,PlayerID)) {
-                CCBoard temp = (CCBoard) board.clone();
-                temp.move(move);
-                pairs.add(new Pair(move,temp));
-            }
-        }
-        return pairs;
-    }
-
     //Get rating of board for specified player.
     public int getDistanceToDestination(Board theBoard, Integer playerID) {
         //Rating is the sum of every piece to the target.

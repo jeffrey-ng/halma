@@ -22,30 +22,22 @@ public class AlphaBeta implements IMoveAlgorithm{
     Leaf tree;
     CCMove lastMove;
     int myPlayerID;
-    int myTeamMemberID;
 
     public AlphaBeta(){
         heur = new Heuristics();
         tools = new GeneralTools();
-        heur.setWeights(0,weights(50,30,100,10000));
+        heur.setWeights(0,weights(50,30,100,100000));
     };
 
-    public Move getOptimalMove(Board theBoard, Integer searchDepth, int MyPlayerID) throws Exception{
+    public Move getOptimalMove(Board theBoard, Integer searchDepth) throws Exception{
         this.searchDepth = searchDepth;
         tree = new Leaf(null,theBoard,0);
-        this.myPlayerID = MyPlayerID;
-//        if (myPlayerID == 0) { this.myTeamMemberID =3;}
-//        if (myPlayerID == 3) { this.myTeamMemberID =0;}
-//        if (myPlayerID == 1) { this.myTeamMemberID =2;}
-//        if (myPlayerID == 2) { this.myTeamMemberID =1;}
-
         return alphaBetaSearch(theBoard);
     }
 
 
     public Move alphaBetaSearch(Board theBoard) throws Exception{
         Integer utility = playerMaxUtility(tree, Integer.MIN_VALUE, Integer.MAX_VALUE);
-//        Integer utility = utilityManager(tree,Integer.MIN_VALUE,Integer.MAX_VALUE,myPlayerID);
         //CCBoard bestBoard;
 
         for (Node currentNode : tree.getChildren())
@@ -135,65 +127,6 @@ public class AlphaBeta implements IMoveAlgorithm{
         return val;
     }
 
-//    private Integer utilityManager(Leaf node, Integer currentMin, Integer currentMax, int PlayerID) {
-//
-//        if(PlayerID == myPlayerID || PlayerID == myTeamMemberID) {
-//            return playerMaxUtilityForPlayer(node, currentMin,currentMax,PlayerID);
-//        } else {
-//            return playerMinUtilityForPlayer(node, currentMin, currentMax, PlayerID);
-//        }
-//    }
-//
-//    private Integer playerMaxUtilityForPlayer(Leaf node, Integer currentMin, Integer currentMax, int PlayerID) {
-//
-//
-//        if (searchEnd(node)) {
-//            return evalCurrentGame(node.getBoard());
-//        }
-//        nextTurn(PlayerID);
-//        Integer val = Integer.MIN_VALUE;
-//
-//        for (Pair p: tools.getNextPossibleBoardsForPlayer(node.getBoard(),PlayerID)) {
-//            //Leaf nextNode = new Leaf(b, node.depth + 1);
-//            Leaf nextNode = new Leaf(p.getMove(),p.getBoard(),node.depth+1);
-//            val = Math.max(val, utilityManager(nextNode,currentMin,currentMax,PlayerID));
-//            node.value = val;
-//            node.addChild(nextNode);
-//
-//
-//            if (val >= currentMax) { return val; }
-//
-//            currentMin = Math.max(currentMin, val);
-//        }
-//
-//        return val;
-//    }
-//
-//    private Integer playerMinUtilityForPlayer(Leaf node, Integer currentMin, Integer currentMax, int PlayerID) {
-//        if (searchEnd(node)) {
-//            return evalCurrentGame(node.getBoard());
-//        }
-//        nextTurn(PlayerID);
-//        Integer val = Integer.MAX_VALUE;
-//
-//
-//        for (Pair p: tools.getNextPossibleBoardsForPlayer(node.getBoard(),PlayerID)) {
-//            Leaf nextNode = new Leaf(p.getMove(),p.getBoard(),node.depth+1);
-//            //Leaf nextNode = new Leaf(b, node.depth + 1);
-//            val = Math.min(val, utilityManager(nextNode,currentMin,currentMax,PlayerID));
-//            node.value = val;
-//            node.addChild(nextNode);
-//
-//            if (val <= currentMin) {return val; }
-//
-//            currentMax = Math.min(currentMax,val);
-//        }
-//
-//        return val;
-//    }
-
-
-
     private Boolean searchEnd(Leaf node) {
         return node.depth > searchDepth || node.getBoard().getWinner() != Board.NOBODY;
     }
@@ -207,10 +140,5 @@ public class AlphaBeta implements IMoveAlgorithm{
         tmp.put(Heuristics.WeightNames.piecesInBase,pib);
         return tmp;
     }
-
-//    private int nextTurn(int PlayerID) {
-//        if (PlayerID == 3) { return 0;}
-//        return PlayerID++;
-//    }
 
 }
