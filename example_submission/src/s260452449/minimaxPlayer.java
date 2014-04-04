@@ -21,6 +21,7 @@ import java.util.Set;
 public class minimaxPlayer extends Player{
     private String myName;
     private GeneralTools tools;
+    int moveCount;
 
     private IMoveAlgorithm algorithm;
 
@@ -28,14 +29,16 @@ public class minimaxPlayer extends Player{
         super("260452449");
         myName = "260452449";
         tools = new GeneralTools();
-        algorithm = new AlphaBeta();
+        algorithm = new AlphaBeta(this.playerID);
+        moveCount = 0;
     }
 
     public minimaxPlayer(String s) {
         super(s);
         myName = s;
         tools = new GeneralTools();
-        algorithm = new AlphaBeta();
+        algorithm = new AlphaBeta(this.playerID);
+        moveCount = 0;
     }
 
     public Board createBoard() { return new CCBoard();}
@@ -49,14 +52,14 @@ public class minimaxPlayer extends Player{
         // Get the list of legal moves.
         ArrayList<CCMove> moves = board.getLegalMoves();
         try {
-            move = algorithm.getOptimalMove(theboard,2);
+            move = algorithm.getOptimalMove(theboard,2,this.playerID,moveCount);
         } catch (Exception e) {
             System.out.println("Problem making move decision.");
             move = moves.get(rand.nextInt(moves.size()));
         }
 
 
-
+        moveCount++;
         return (CCMove) move;
     }
 

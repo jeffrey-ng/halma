@@ -3,6 +3,8 @@ package s260452449.MyTools;
 import boardgame.Board;
 import halma.CCBoard;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Hashtable;
 
 /**
@@ -12,7 +14,7 @@ public class Heuristics {
 
     private GeneralTools tools;
     public enum WeightNames {
-        neighbours, distanceToDest, distanceFromBase, piecesInBase
+        neighbours, distanceToDest, distanceFromBase, piecesInMyBase, noNeighbours, piecesInTargetBase
 
     }
 
@@ -51,24 +53,47 @@ public class Heuristics {
     }
 
 
-    public Integer evaluateIncomplete(Board theBoard) {
+    public Integer evaluateIncomplete(Board theBoard, int PlayerID, int moveCount) {
         CCBoard board = (CCBoard) theBoard;
         Integer utility = 0;
         for (int pid = 0; pid < board.getNumberOfPlayers();pid ++) {
 
         }
-
-        utility -= tools.getDistanceToDestination(theBoard,0) * weights.get(0).get(WeightNames.distanceToDest);
+        //PlayerID = 0;
+        utility -= tools.getDistanceToDestination(theBoard,PlayerID, moveCount) * (weights.get(PlayerID).get(WeightNames.distanceToDest) + 2*(moveCount));
 //        utility -= tools.getDistanceToDestination(theBoard, 0);
         //utility += tools.getDistanceFromBase(theBoard,0)* weights.get(0).get(WeightNames.distanceFromBase);;
-        utility += tools.getDistanceFromBase(theBoard,0)* 1000;
-        utility -= tools.getNumPiecesInBase(theBoard,0)* weights.get(0).get(WeightNames.piecesInBase);
-        utility += tools.getNeighbourCount(theBoard,0) * weights.get(0).get(WeightNames.neighbours);
+        utility += tools.getDistanceFromBase(theBoard,PlayerID)* weights.get(PlayerID).get(WeightNames.distanceFromBase);
+        utility -= tools.getNumPiecesInBase(theBoard,PlayerID)* (weights.get(PlayerID).get(WeightNames.piecesInMyBase) + moveCount*moveCount);
+        utility += tools.getNumPiecesInTargetBase(theBoard, PlayerID)* (weights.get(PlayerID).get(WeightNames.piecesInTargetBase) + 2*(moveCount));
+        int nCount = tools.getNeighbourCount(theBoard,PlayerID);
+        if (nCount > 36) {
+            utility -= nCount * weights.get(PlayerID).get(WeightNames.neighbours);
+        } else {
+            utility += nCount * weights.get(PlayerID).get(WeightNames.neighbours);
+        }
+       // utility += tools.getNeighbourCount(theBoard,PlayerID) * weights.get(PlayerID).get(WeightNames.neighbours);
+        //utility -= tools.getLargestDistanceBetweenPieces(theBoard,0) * 5;
+        utility -= tools.getNumWithNoNeighbours(theBoard,PlayerID) * weights.get(PlayerID).get(WeightNames.noNeighbours);
 
 
+         try
+            {
+                String filename= "Util2.txt";
+                FileWriter fw = new FileWriter(filename,true); //the true will append the new data
+                fw.write("Heuristics: "+ utility+ "\n");//appends the string to the file
+                fw.close();
+            }
+            catch(IOException ioe)
+            {
+                System.err.println("IOException: " + ioe.getMessage());
+            }
         return utility;
 
-    }
+    } 
+    //Longest Chain Heuristic
 
+    //At a certain point, switch to looking to fill spots in endzone.
 
+    // Weight different spots with different weights. Closest, highest. Slowly draw out.
 }

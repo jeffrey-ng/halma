@@ -30,8 +30,23 @@ public class GeneralTools {
         return pairs;
     }
 
+    public ArrayList<Pair> getNextPossibleBoardsForPlayer(Board theBoard, int PlayerID) {
+
+        ArrayList<Pair> pairs = new ArrayList<Pair>();
+        CCBoard board = (CCBoard) theBoard;
+
+        for (Point p: board.getPieces(PlayerID)) {
+            for (CCMove move : board.getLegalMoveForPiece(p,PlayerID)) {
+                CCBoard temp = (CCBoard) board.clone();
+                temp.move(move);
+                pairs.add(new Pair(move,temp));
+            }
+        }
+        return pairs;
+    }
+
     //Get rating of board for specified player.
-    public int getDistanceToDestination(Board theBoard, Integer playerID) {
+    public int getDistanceToDestination(Board theBoard, Integer playerID, int moveCount) {
         //Rating is the sum of every piece to the target.
         CCBoard board = (CCBoard) theBoard;
         ArrayList<CCMove> moves = board.getLegalMoves();
@@ -47,7 +62,12 @@ public class GeneralTools {
         Point to;
         for (Point p: board.getPieces(playerID)) {
             from = p;
-            to = getOppositeTarget(playerID);
+           // if (moveCount > 200) {
+                to = closestGoalPoint(theBoard,from,remainingGoal);
+            //} else {
+             to = getOppositeTarget(playerID);
+           // }
+
             move = new CCMove(playerID,from,to);
             rating += getDistance(move);
         }
@@ -106,6 +126,29 @@ public class GeneralTools {
 
 
         return neighbours;
+
+    }
+
+    public int getNumWithNoNeighbours(Board theBoard, Integer playerID){
+        CCBoard board = (CCBoard) theBoard;
+        ArrayList<Point> myPieces = board.getPieces(playerID);
+
+        int noNeighbourCount=0;
+        boolean hasNeighbour = false;
+        for (Point p: myPieces) {
+            for (int x =(int) p.getX()-1;x< (int)p.getX()+1;x++) {
+                for (int y =(int) p.getY()-1;y< (int)p.getY()+1;y++) {
+                    if (myPieces.contains(new Point(x,y))) {
+                        hasNeighbour = true;
+                    }
+                }
+            }
+            if (!hasNeighbour) { noNeighbourCount++;}
+            hasNeighbour = false;
+        }
+
+
+        return noNeighbourCount;
 
     }
 
@@ -218,8 +261,8 @@ public class GeneralTools {
         Point target = new Point(0,0);
         switch (PlayerID) {
             case 0: target = new Point(15,15);break;
-            case 1: target = new Point(15,0);break;
-            case 2: target = new Point(0,15);break;
+            case 1: target = new Point(0,15);break;
+            case 2: target = new Point(15,0);break;
             case 3:target = new Point(0,0); break;
         }
         return target;
@@ -229,10 +272,10 @@ public class GeneralTools {
     public Point getMyOwnBaseTarget(int PlayerID) {
         Point target = new Point(0,0);
         switch (PlayerID) {
-            case 3: target = new Point(15,15);break;
-            case 2: target = new Point(15,0);break;
-            case 1: target = new Point(0,15);break;
             case 0:target = new Point(0,0); break;
+            case 1: target = new Point(15,0);break;
+            case 2: target = new Point(0,15);break;
+            case 3: target = new Point(15,15);break;
         }
         return target;
 
@@ -247,6 +290,69 @@ public class GeneralTools {
                count++;
            }
         }
+        if (board.getPieces(playerID).contains(getMyOwnBaseTarget(playerID))) { count = count + 100;}
         return count;
+    }
+
+    public int getNumPiecesInTargetBase(Board theBoard, Integer playerID) {
+        CCBoard board = (CCBoard) theBoard;
+        int count =0;
+        ArrayList<Point> myTargetBase = new ArrayList<Point>(board.bases[playerID^3]);
+        for (Point p: board.getPieces(playerID)) {
+            if (myTargetBase.contains(p)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public int getLargestDistanceBetweenPieces(Board theBoard, Integer playerID) {
+        CCBoard board = (CCBoard) theBoard;
+        double largestDistance = 0;
+        CCMove move;
+        Point from;
+        Point to;
+        for (Point p: board.getPieces(playerID)) {
+            for (Point np: board.getPieces(playerID)) {
+                from = np;
+                to = p;
+                move = new CCMove(playerID,from,to);
+                double distance = getDistance(move);
+                largestDistance = largestDistance + distance;
+//                if (distance>largestDistance) {
+//                    largestDistance = distance;
+//                }
+
+            }
+        }
+
+        return (int)largestDistance;
+
+    }
+
+    public int getDistanceFromMid(Board theBoard, Integer playerID) {
+        CCBoard board = (CCBoard) theBoard;
+        CCMove move;
+        Point from;
+        Point to;
+        for (Point p: board.getPieces(playerID)) {
+            for (Point np: board.getPieces(playerID)) {
+                from = np;
+                to = p;
+                move = new CCMove(playerID,from,to);
+                double distance = getDistance(move);
+                //largestDistance = largestDistance + distance;
+//                if (distance>largestDistance) {
+//                    largestDistance = distance;
+//                }
+
+            }
+
+        }
+
+
+
+       // retrun (int) largest
+        return 0;
     }
 }

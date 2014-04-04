@@ -15,5 +15,5 @@ public interface IMoveAlgorithm {
      * @param seachDepth
      * @return
      */
-    Move getOptimalMove(Board theboard, Integer seachDepth) throws Exception;
+    Move getOptimalMove(Board theboard, Integer seachDepth, int playerID,int moveCount) throws Exception;
 }
