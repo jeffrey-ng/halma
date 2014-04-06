@@ -62,10 +62,10 @@ public class Heuristics {
         //PlayerID = 0;
        utility -= tools.getDistanceToDestination(theBoard,PlayerID, moveCount) * (weights.get(PlayerID).get(WeightNames.distanceToDest) + 2*(moveCount));
 //        utility -= tools.getDistanceToDestination(theBoard, 0);
-        //utility += tools.getDistanceFromBase(theBoard,0)* weights.get(0).get(WeightNames.distanceFromBase);;
+        utility += tools.getDistanceFromBase(theBoard,0)* weights.get(0).get(WeightNames.distanceFromBase);;
         utility += tools.getDistanceFromBase(theBoard,PlayerID)* weights.get(PlayerID).get(WeightNames.distanceFromBase);
         utility -= tools.getNumPiecesInBase(theBoard,PlayerID)* (weights.get(PlayerID).get(WeightNames.piecesInMyBase) + moveCount*moveCount);
-        utility += tools.getNumPiecesInTargetBase(theBoard, PlayerID)* (weights.get(PlayerID).get(WeightNames.piecesInTargetBase) + 2*(moveCount));
+        utility += tools.getNumPiecesInTargetBase(theBoard, PlayerID)* (weights.get(PlayerID).get(WeightNames.piecesInTargetBase) +2 *(moveCount));
 //        int nCount = tools.getNeighbourCount(theBoard,PlayerID);
 //        if (nCount > 36) {
 //            utility -= nCount * weights.get(PlayerID).get(WeightNames.neighbours);
@@ -84,7 +84,10 @@ public class Heuristics {
         int[] groupUtility = new int[4];
         for (int pid = 0; pid < board.getNumberOfPlayers(); pid++) {
             utility = 0;
-            utility -= tools.getDistanceToDestination(theBoard,pid, moveCount) * (weights.get(pid).get(WeightNames.distanceToDest) + 2*(moveCount));
+            utility -= tools.getDistanceToDestination(theBoard,pid, moveCount) * (weights.get(pid).get(WeightNames.distanceToDest) + (moveCount));
+            utility += tools.getNumPiecesInTargetBase(theBoard, pid)* (weights.get(pid).get(WeightNames.piecesInTargetBase) + 2*(moveCount));
+            utility -= tools.getNumPiecesInBase(theBoard,pid)* (weights.get(pid).get(WeightNames.piecesInMyBase) + moveCount*moveCount);
+
             groupUtility[pid] = utility;
         }
 

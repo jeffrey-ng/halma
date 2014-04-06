@@ -58,7 +58,7 @@ public class AlphaBeta implements IMoveAlgorithm{
            // return heur.evaluateIncomplete(board,playerID,moveCount);
             return heur.generalHeuristicEvaluation(board,moveCount);
         }
-        int limit = 300;
+        int limit = 500;
         int maxV = Integer.MIN_VALUE;
         int[] bestTuple = {Integer.MIN_VALUE,Integer.MIN_VALUE,Integer.MIN_VALUE,Integer.MIN_VALUE};
         int[] tuple = new int[4];
@@ -139,10 +139,10 @@ public class AlphaBeta implements IMoveAlgorithm{
 //        heur.setWeights(1,weights(15,40,10,200,5,30));
 //        heur.setWeights(2,weights(15,40,10,200,5,30));
 //        heur.setWeights(3,weights(15,40,10,200,5,30));
-        heur.setWeights(0,weights(2,1,1,5,1,1));
-        heur.setWeights(1,weights(2,1,1,5,1,1));
-        heur.setWeights(2,weights(2,1,1,5,1,1));
-        heur.setWeights(3,weights(2,1,1,5,1,1));
+        heur.setWeights(0,weights(2,1,1,5,1,20));
+        heur.setWeights(1,weights(2,1,1,5,1,20));
+        heur.setWeights(2,weights(2,1,1,5,1,20));
+        heur.setWeights(3,weights(2,1,1,5,1,20));
 
 
         this.searchDepth = searchDepth;
