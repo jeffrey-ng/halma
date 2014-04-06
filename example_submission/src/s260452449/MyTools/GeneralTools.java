@@ -37,6 +37,7 @@ public class GeneralTools {
 
         for (Point p: board.getPieces(PlayerID)) {
             for (CCMove move : board.getLegalMoveForPiece(p,PlayerID)) {
+                //if (getDistance(move))
                 CCBoard temp = (CCBoard) board.clone();
                 temp.move(move);
                 pairs.add(new Pair(move,temp));
@@ -45,15 +46,25 @@ public class GeneralTools {
         return pairs;
     }
 
+    public boolean isBackwardsMove(Board theBoard,CCMove move) {
+        CCBoard board = (CCBoard) theBoard;
+        Point target = getOppositeTarget(move.getPlayerID());
+        double oldDistance = getDistance(new CCMove(move.getPlayer_id(),move.getFrom(),target));
+        double newDistance = getDistance(new CCMove(move.getPlayer_id(),move.getFrom(),target));
+
+        if (newDistance > oldDistance) {
+            return false;
+        }
+        return true;
+    }
+
     //Get rating of board for specified player.
     public int getDistanceToDestination(Board theBoard, Integer playerID, int moveCount) {
         //Rating is the sum of every piece to the target.
         CCBoard board = (CCBoard) theBoard;
-        ArrayList<CCMove> moves = board.getLegalMoves();
 
-        Set<Point> myBase = board.bases[playerID];
 
-        ArrayList<Point> remainingGoal = remainingGoalPoints(theBoard, playerID);
+        //ArrayList<Point> remainingGoal = remainingGoalPoints(theBoard, playerID);
 
         double rating = 0;
 
@@ -63,7 +74,7 @@ public class GeneralTools {
         for (Point p: board.getPieces(playerID)) {
             from = p;
            // if (moveCount > 200) {
-                to = closestGoalPoint(theBoard,from,remainingGoal);
+               // to = closestGoalPoint(theBoard,from,remainingGoal);
             //} else {
              to = getOppositeTarget(playerID);
            // }
@@ -330,29 +341,5 @@ public class GeneralTools {
 
     }
 
-    public int getDistanceFromMid(Board theBoard, Integer playerID) {
-        CCBoard board = (CCBoard) theBoard;
-        CCMove move;
-        Point from;
-        Point to;
-        for (Point p: board.getPieces(playerID)) {
-            for (Point np: board.getPieces(playerID)) {
-                from = np;
-                to = p;
-                move = new CCMove(playerID,from,to);
-                double distance = getDistance(move);
-                //largestDistance = largestDistance + distance;
-//                if (distance>largestDistance) {
-//                    largestDistance = distance;
-//                }
 
-            }
-
-        }
-
-
-
-       // retrun (int) largest
-        return 0;
-    }
 }
